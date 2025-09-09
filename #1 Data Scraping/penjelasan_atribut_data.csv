@@ -1,0 +1,18 @@
+Nama Fitur,Tipe Data,Alasan Pemilihan (Mengapa Penting?)
+Student ID,Kategorikal,Identifier unik untuk setiap siswa. Berguna untuk pelacakan data tetapi tidak akan digunakan sebagai fitur dalam model prediksi.
+First Name,Kategorikal,"Informasi demografis, tidak akan digunakan dalam pemodelan untuk menghindari bias."
+Last Name,Kategorikal,"Sama seperti First Name, tidak akan digunakan untuk pemodelan."
+Gender,Kategorikal,Untuk menganalisis apakah ada perbedaan performa akademik antara gender.
+Age,Numerik,Usia dapat berkorelasi dengan tingkat kematangan dan pendekatan belajar siswa.
+Ethnicity,Kategorikal,Faktor demografis yang bisa dianalisis untuk melihat apakah ada disparitas dalam hasil ujian antar kelompok etnis.
+Parental Education,Kategorikal,Latar belakang pendidikan orang tua seringkali menjadi proksi untuk dukungan dan sumber daya belajar yang tersedia di rumah.
+Study Time Weekly,Numerik,Fitur kunci. Ini adalah indikator langsung dari usaha yang dicurahkan siswa. Diharapkan berkorelasi positif dengan skor ujian.
+Absences,Numerik,Jumlah absensi dapat mengindikasikan masalah keterlibatan atau kesehatan yang dapat berdampak negatif pada skor.
+Tutoring,Biner (Ya/Tidak),"Menunjukkan apakah siswa menerima bantuan belajar tambahan, yang bisa meningkatkan skor."
+Parental Support,Kategorikal,Tingkat dukungan dari orang tua (dari sangat mendukung hingga tidak ada) adalah faktor psikologis penting yang memengaruhi motivasi.
+Extracurricular,Biner (Ya/Tidak),Keterlibatan dalam kegiatan ekstrakurikuler dapat memengaruhi manajemen waktu dan tingkat stres siswa.
+Sports,Biner (Ya/Tidak),"Sama seperti ekstrakurikuler, partisipasi dalam olahraga bisa berdampak pada waktu belajar dan energi siswa."
+Music,Biner (Ya/Tidak),Keterlibatan dalam musik sering dikaitkan dengan pengembangan kognitif yang dapat memengaruhi kinerja akademik.
+Volunteering,Biner (Ya/Tidak),Aktivitas sukarela dapat memengaruhi pengembangan karakter dan manajemen waktu.
+GPA,Numerik,Indeks Prestasi Kumulatif (IPK) sebelum ujian ini. Merupakan prediktor kuat untuk performa di ujian berikutnya.
+Grade Class,Numerik,Variabel Target. Skor ujian akhir yang ingin kita analisis dan prediksi.
